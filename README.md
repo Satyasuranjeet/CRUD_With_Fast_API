@@ -27,7 +27,7 @@ Welcome to the **FastAPI CRUD Application**! This is a simple yet powerful API b
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/fastapi-crud-mongodb.git
+git clone https://github.com/Satyasuranjeet/CRUD_With_Fast_API.git
 cd fastapi-crud-mongodb
 ```
 
