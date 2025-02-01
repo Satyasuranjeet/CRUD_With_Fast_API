@@ -28,7 +28,9 @@ class Item(BaseModel):
 
 def item_with_id(item):
     return {**item, "_id": str(item["_id"])}
-
+@app.get("/")
+def home():
+    return {"Message": "Hello Server is Active and Ready"}
 @app.post("/item/")
 async def create(item:Item):
     tem=item.dict()
